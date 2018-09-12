@@ -1,0 +1,12 @@
+# Module Directory
+.terraform
+
+# Secrets
+terraform.tfvars
+
+# Mac File
+.DS_Store
+
+# Created files
+*.tfstate
+*.tfstate.backup
