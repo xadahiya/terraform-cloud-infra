@@ -20,7 +20,7 @@ variable "pem_key" {
 
 variable "random_s3_name" {
   description = "Generate random bucket name for code scalability"
-  default     = "server-files-bucket"
+  default     = "server-files-bucket332123"
 }
 
 variable "DNS_Zone" {

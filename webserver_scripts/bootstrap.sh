@@ -3,7 +3,7 @@
 sudo apt-get update
 
 # Unpack Resources
-sudo tar xvf /srv/www/server-files.tar.gz -C /srv/www/
+sudo tar xvf /srv/www/server-files.tar.gz -C /srv/www/html/
 
 # Install packages
 sudo apt-get -y install apache2 libapache2-mod-wsgi mysql-client python python-pip libxml2-dev libxslt-dev python-dev libxslt1-dev zlib1g-dev
@@ -67,4 +67,3 @@ unset DB
 
 # Purge bootstrap file
 sudo rm /tmp/bootstrap.sh
-

@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "server-files-bucket" {
 resource "aws_s3_bucket_object" "server-files" {
   bucket = "${aws_s3_bucket.server-files-bucket.bucket}"
   key    = "server-files.tar.gz"
-  source = "./server_files.tar.gz"
+  source = "./server-files.tar.gz"
 }
 
 resource "aws_s3_bucket_object" "boot-file" {
